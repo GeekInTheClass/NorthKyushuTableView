@@ -51,7 +51,7 @@ class NorthKyushuTableViewController: UITableViewController {
         
         let city = northKyushu[indexPath.row]
         cell.textLabel!.text = city.cityName
-        //cell.detailTextLabel!.text = city.prefName
+        cell.detailTextLabel?.text = city.prefName
         
         
         

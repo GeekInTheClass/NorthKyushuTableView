@@ -32,7 +32,7 @@ class City :Prefecture  {
 func createDummy()->[City] {
     var fukPrefTravel:[City]=[]
     
-    let fukuoka = Prefecture(prefName: "후쿠오카 현")
+    //let fukuoka = Prefecture(prefName: "후쿠오카 현")
     let fukCity = City(cityName: "후쿠오카 시", prefName:"후쿠오카 현")
     fukCity.district = ["하카타 권역", "텐진 권역", "오호리 공원 권역", "하코자키 권역", "모모치 권역"]
     fukPrefTravel += [fukCity]
@@ -48,7 +48,7 @@ func createDummy()->[City] {
     
     var oitaPrefTravel :[City]=[]
     
-    let oita = Prefecture(prefName: "오이타 현")
+    //let oita = Prefecture(prefName: "오이타 현")
     let beppu = City(cityName:"벳푸 시", prefName:"오이타 현")
     beppu.district = ["벳푸 시내", "지옥온천탕"]
     oitaPrefTravel += [beppu]
@@ -62,7 +62,7 @@ func createDummy()->[City] {
     //return fukPrefTravel
     //return oitaPrefTravel
     
-    var northKyushu = fukPrefTravel + oitaPrefTravel
+    let northKyushu = fukPrefTravel + oitaPrefTravel
     return northKyushu
     
 }
