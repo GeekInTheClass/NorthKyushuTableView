@@ -12,6 +12,8 @@
 		1A2E25761DA32FED00C0E49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E25741DA32FED00C0E49E /* Main.storyboard */; };
 		1A2E25781DA32FED00C0E49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E25771DA32FED00C0E49E /* Assets.xcassets */; };
 		1A2E257B1DA32FED00C0E49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2E25791DA32FED00C0E49E /* LaunchScreen.storyboard */; };
+		1A2E25851DA3329A00C0E49E /* NorthKyushu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E25841DA3329A00C0E49E /* NorthKyushu.swift */; };
+		1A2E25871DA3357B00C0E49E /* NorthKyushuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E25861DA3357B00C0E49E /* NorthKyushuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1A2E25771DA32FED00C0E49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A2E257A1DA32FED00C0E49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A2E257C1DA32FED00C0E49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2E25841DA3329A00C0E49E /* NorthKyushu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorthKyushu.swift; sourceTree = "<group>"; };
+		1A2E25861DA3357B00C0E49E /* NorthKyushuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorthKyushuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		1A2E256F1DA32FED00C0E49E /* NorthKyushuTableView */ = {
 			isa = PBXGroup;
 			children = (
+				1A2E25841DA3329A00C0E49E /* NorthKyushu.swift */,
 				1A2E25701DA32FED00C0E49E /* AppDelegate.swift */,
 				1A2E25721DA32FED00C0E49E /* ViewController.swift */,
 				1A2E25741DA32FED00C0E49E /* Main.storyboard */,
+				1A2E25861DA3357B00C0E49E /* NorthKyushuTableViewController.swift */,
 				1A2E25771DA32FED00C0E49E /* Assets.xcassets */,
 				1A2E25791DA32FED00C0E49E /* LaunchScreen.storyboard */,
 				1A2E257C1DA32FED00C0E49E /* Info.plist */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A2E25731DA32FED00C0E49E /* ViewController.swift in Sources */,
+				1A2E25851DA3329A00C0E49E /* NorthKyushu.swift in Sources */,
+				1A2E25871DA3357B00C0E49E /* NorthKyushuTableViewController.swift in Sources */,
 				1A2E25711DA32FED00C0E49E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
